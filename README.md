@@ -1,1 +1,1 @@
-# proj-landing-page
+# odin-landing-page
