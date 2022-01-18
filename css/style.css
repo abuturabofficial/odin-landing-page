@@ -186,6 +186,58 @@ body {
   text-align: end;
 }
 
+/* Styling for Call-to-Action Section */
+.cta-sec {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  align-items: center;
+  flex: 1;
+  padding: 180px 200px;
+}
+
+.cta-sec h3 {
+  font-size: 36px;
+  padding: 0;
+  margin: 0;
+}
+
+.cta-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  background-color: #3882f6;
+  padding: 40px 100px;
+  border-radius: 6.5px;
+  gap: 32px;
+}
+
+.cta-sec button {
+  background-color: #3882f6;
+  border: none;
+  border-color: #ffffff;
+  border-radius: 8px;
+  padding: 12px 46px;
+}
+
+.cta-btn {
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+}
+
+.cta-sec a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.cta-sec a:hover {
+  text-decoration: underline;
+  color: #362B2B;
+  font-weight: 1000;
+}
+
 /* Styling for Footer */
 .footer {
   text-align: center;
