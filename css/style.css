@@ -121,7 +121,6 @@ body {
   margin: 0;
 }
 
-
 .cards-main {
   display: flex;
   /* border: 2px solid black; */
@@ -162,6 +161,29 @@ body {
   padding: 6px;
   height: 250px;
   width: 150px;
+}
+
+/* Styling for Quote Section */
+.quote-sec {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  padding: 140px 160px;
+  gap: 16px;
+}
+
+.quote-box {
+  font-size: 36px;
+  color: #1f2937;
+  font-variant: normal;
+  font-style: italic;
+  text-align: justify;
+}
+
+.author-box {
+  font-weight: 1000;
+  color: #000000;
+  text-align: end;
 }
 
 /* Styling for Footer */
