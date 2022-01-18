@@ -10,3 +10,84 @@ body {
   padding: 0;
   margin: 0;
 }
+
+.header,
+.footer,
+.hero-sec {
+  background-color: #1f2937;
+  color: white;
+}
+
+/* Styling for Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  margin: 0 0 auto 0;
+}
+
+.header-logo img {
+  height: 100px;
+  width: 160px;
+}
+
+.header ul {
+  display: flex;
+  list-style: none;
+  gap: 8px;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Styling for Main-Container */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+/* Styling for Hero-Section */
+.hero-sec {
+  display: flex;
+  gap: 16px;
+  padding: 80px 120px 140px;
+  min-width: 70vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-sec h1 {
+  font-size: 48px;
+  padding: 0;
+  margin: 0;
+}
+
+.hero-sec .button {
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 2.5px;
+  padding: 8px 36px;
+}
+
+.hero-sec .button a {
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+}
+
+.hero-sec img {
+  height: 200px;
+  width: 300px;
+  border-radius: 10.2px;
+}
+
+/* Styling for Footer */
+.footer {
+  text-align: center;
+  padding: 32px 0;
+  margin: auto 0 0 0;
+}
