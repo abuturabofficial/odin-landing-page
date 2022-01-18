@@ -43,6 +43,11 @@ body {
   color: white;
 }
 
+.header a:hover {
+  text-decoration: underline;
+  font-weight: 700;
+}
+
 /* Styling for Main-Container */
 .main-container {
   display: flex;
@@ -79,10 +84,46 @@ body {
   font-weight: 900;
 }
 
+.hero-sec .hero-content a {
+  color: skyblue;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.hero-sec .hero-content a:hover {
+  text-decoration: underline;
+  font-weight: 900;
+  color: red;
+}
+
 .hero-sec img {
   height: 200px;
   width: 300px;
   border-radius: 10.2px;
+}
+
+/* Styling for Cards Section */
+
+.cards-sec {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards-sec h3 {
+  font-size: 36px;
+  text-align: center;
+}
+
+
+.cards-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-sec img {
+  height: 300px;
+  width: 200px;
 }
 
 /* Styling for Footer */
